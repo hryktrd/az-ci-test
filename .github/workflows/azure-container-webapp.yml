@@ -51,8 +51,10 @@ jobs:
         uses: docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d # v3.0.0
         with:
           registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ github.token }}
+          username: hryktrd
+          password: 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
+#          username: ${{ github.actor }}
+#          password: ${{ github.token }}
 
       - name: Lowercase the repo name and username
         run: echo "REPO=${GITHUB_REPOSITORY,,}" >>${GITHUB_ENV}
