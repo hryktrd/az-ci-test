@@ -52,7 +52,7 @@ jobs:
         with:
           registry: ghcr.io
           username: hryktrd
-          password: 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
+          password: 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
 
       - name: Lowercase the repo name and username
         run: echo "REPO=${GITHUB_REPOSITORY,,}" >>${GITHUB_ENV}
